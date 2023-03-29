@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import React,{Component} from 'react';
+import FuncProps from './FuncProps';
+import ClassProps from './ClassProps';
 function App1()
 {
   return(
-    <center><button onClick={window['alertMsg']}>Click Me</button></center>
-  
+    <>
+    <FuncProps/>
+    <ClassProps/>
+    </>
   )
 }
 
